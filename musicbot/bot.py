@@ -40,6 +40,7 @@ from .utils import load_file, write_file, fixg, ftimedelta, _func_
 from .constants import VERSION as BOTVERSION
 from .constants import DISCORD_MSG_CHAR_LIMIT, AUDIO_CACHE_PATH
 
+bot.run(os.getenv('TOKEN'))
 
 load_opus_lib()
 
