@@ -16,7 +16,6 @@ try:
 except ImportError:
     pass
 
-bot.run(os.getenv('TOKEN'))
 
 class GIT(object):
     @classmethod
