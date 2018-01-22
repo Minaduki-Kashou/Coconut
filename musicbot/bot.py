@@ -40,6 +40,7 @@ from .utils import load_file, write_file, fixg, ftimedelta, _func_
 from .constants import VERSION as BOTVERSION
 from .constants import DISCORD_MSG_CHAR_LIMIT, AUDIO_CACHE_PATH
 
+client.login(process.env.BOT_TOKEN);
 
 load_opus_lib()
 
@@ -2677,4 +2678,4 @@ class MusicBot(discord.Client):
             self.server_specific_data[server]['availability_paused'] = True
             player.pause()
 
-    client.login(process.env.BOT_TOKEN);
+    
