@@ -1,2 +1,1 @@
-worker: cd("~/musicbot"):
-python bot.py
+worker: python bot.py
