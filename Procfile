@@ -1,2 +1,2 @@
-worker: with cd("~/musicbot"):
+worker: cd("~/musicbot"):
 python bot.py
